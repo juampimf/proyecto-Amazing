@@ -1,0 +1,240 @@
+body{
+    background-image: url(../assets/humo.jpg);
+    background-size: cover;
+    min-height: 100vh;
+
+} 
+ header{
+    display: flex;
+    justify-content:space-between;
+    width: 100%;
+    background-size: cover;
+ } 
+
+ .logo{
+     margin: 4rem;
+ }
+ main{
+     display: flex;
+     flex-direction: column;
+ }
+ h1{
+    display: flex;
+    justify-content: center; 
+    margin: 5rem;
+    font-size: 5rem;
+    -webkit-text-stroke:.1px white;
+} 
+h2{
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    -webkit-text-stroke:.7px white;
+}
+ .ancornav{
+    text-decoration: none;
+    margin: .5rem;
+    padding: .2rem;
+    background-color: black;
+    box-shadow: 10px 10px 10px  gray ;
+    border-radius: 10rem;
+    color:honeydew
+} 
+nav a:hover{
+    background-color:  rgb(103, 98, 107);
+}
+.filters{
+    display: flex;
+    justify-content: center;
+}
+
+.summary-nav{
+    display: flex;
+    margin: 2rem;
+}
+.mainCards{
+    
+    width: 100vw;
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-size: cover;
+}
+    
+.boxCard{
+    width: 20%;
+    margin:1%;
+    height: 65vh;
+    border-radius: 10px;  
+    border: solid 2px black;
+    overflow: hidden;
+    background-color: transparent;
+    color: white;
+}
+
+    
+.imgCard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    position: relative;
+    width: 100%;
+    height: 45%;
+
+    
+}
+.imgCard > img{
+    width: 120%;
+    height: 120%;
+     
+}
+
+.dataCard{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.dataCard > p {
+    margin: 2px;
+}
+.dataCard >h2 {
+    margin: 2px;
+}
+#searchInput{
+    font-size: 1rem;
+}
+#checkboxPlace{
+    font-size: 1rem;
+    color: aliceblue;
+    
+}
+.filters{
+    display: flex;
+}
+
+.checkboxcont{
+    width: 3rem;
+}
+
+.container-fluid{
+
+    color: aliceblue;
+}
+.navbar-toggler{
+    color: aliceblue !important;
+    background-color: aliceblue;
+}
+input{
+    width: 40rem;
+    height: 2rem;
+    margin: 1.5rem 3rem;
+}
+.inputs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+@media (max-width: 425px) {
+    
+    
+    nav{
+        margin: 1;
+        text-decoration: none;
+    }
+    nav a{
+        margin-bottom: .5rem;
+        padding: 0;
+        background-color: black;
+        box-shadow: 10px 10px 10px  gray ;
+        border-radius: 10rem;
+        color:honeydew;
+    }
+    .logo{
+        margin: 2rem;
+    }
+    h1{
+        
+        display: flex;
+        align-items: center;
+        justify-content: center; 
+        margin: 4rem 0;
+        font-size: 2rem;
+        -webkit-text-stroke:.1px white;
+    }
+    
+input{
+    width: 15rem;
+}
+
+.boxCard{
+    width: 87%;
+ 
+}
+
+
+}
+@media (min-width : 425px) and (max-width : 768px) {
+    
+    
+    nav{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin: 0;
+    }
+    .logo{
+        margin: 2rem;
+    }
+    h1{
+        
+        display: flex;
+        align-items: center;
+        justify-content: center; 
+        margin: 4rem 0;
+        font-size: 3rem;
+        -webkit-text-stroke:.1px white;
+    }
+    input{
+        width: 27rem;
+    }
+    .boxCard{
+        width: 45%;
+       
+    }
+    
+}
+
+@media (min-width : 768px) and (max-width : 1024px) {
+   
+    nav{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin: 0;
+    }
+    .logo{
+        margin: 2rem;
+    }
+    h1{
+        
+        display: flex;
+        align-items: center;
+        justify-content: center; 
+        margin: 4rem 0;
+        font-size: 3rem;
+        -webkit-text-stroke:.1px white;
+    }
+    
+    .boxCard{
+        width: 30%;
+       
+    }
+}

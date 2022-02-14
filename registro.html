@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazings Events</title>
+    <link rel="stylesheet" href="./estilos/estilo.css">
+</head>
+<body>
+    <header>
+        <div>
+            <img class="logo" src="./assets/logo.png" alt="este es el logo">
+        </div>
+        <div>
+            <nav>
+                <a href="./index.html">INICIO</a>
+                <a href="./proximos-eventos.html">PROXIMOS EVENTOS</a>
+                <a href="./eventos-pasados.html"> EVENTOS PASADOS</a>
+                <a href="./sumary.html">SUMMARY</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <form class="form" action="">
+                    <p class="p-form">Nombre Completo</p>
+                    <label for="nombres"></label>    
+                    <input type="text" id="nombres" placeholder="Nombres">  
+                    
+                    <p class="p-form">Contraseña</p>
+                    <label for="contraseña"></label>    
+                    <input type="password" id="contraseña" placeholder="Contraseña">  
+                    
+                    <p class="p-form">Contraseña(confirmacion)</p>
+                    <label for="confcontraseña"></label>    
+                    <input type="password" id="confcontraseña" placeholder="Confirmar Contraseña">
+                    
+                    <p class="p-form">Tipo de Usuario</p>
+                    <select name="select1" id="select1">
+                        <option value="">Estudiante</option> 
+                        <option value="">Docente</option> 
+                        <option value="">Otro</option> 
+                    </select> 
+                   
+               
+                    
+                    <p class="p-form">Email</p>
+                    <label for="email"></label>    
+                    <input type="email" id="email" placeholder="Email">
+                
+
+                    
+                    <label class="label-form" for="terminosycondiciones">Acepto terminos y condiciones</label>    
+                    <input type="checkbox" id="terminosycondiciones">
+                    <label for="continuar"></label>
+                    <input type="submit" id="continuar" name="continuar" value="continuar">
+          
+        </form>
+    </main>
+    
+</body>
+</html>
